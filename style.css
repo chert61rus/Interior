@@ -191,6 +191,7 @@ body {
     right: -23px;
 }
 .featured-content {
+    display: flex;
     margin-bottom: 120px;
     margin-top: 50px;
     margin-left: 98px;
@@ -321,22 +322,28 @@ body {
 .exclusive .btn {
     margin-left: 50px;
 }
+
 .trending {
-    margin-top: 115px;
     margin-left: 98px;
-}
+    margin-top: 115px;
+    }
+
 .trending-content img {
+    
+    
     margin-right: 26px;
     margin-bottom: 26px;
+    
 }
 .trending h1 {
+    
     margin-bottom: 60px;
     color: #212121;
     font-size: 36px;
     font-weight: 700;
 }
 .trending .exploreall {
-    margin-top: -85px;
+    margin-top:-85px;
 }
 .hot-deal {
     width: 1366px;
@@ -489,8 +496,17 @@ line-height: 22px;
     margin-right: 84px;
    
 }
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+footer a:hover{
+    color:brown;
+}
 footer li{
     list-style-type: none;
+}
+footer li a{
     color:  #212121;
 font-size: 14px;
 font-weight: 700;
@@ -513,8 +529,8 @@ line-height: 26px;
 .col4 p{
     padding-bottom: 25px;
 }
-footer form input{
-    border-width: 1px;
+footer input[type="email"]{
+        border-width: 1px;
 border-color:  #d9dee1;
 border-style: solid;
 background-color:  #ffffff;
@@ -529,6 +545,7 @@ line-height: 22px;
     padding-left: 19px;
 
 }
+
 footer input:focus{
     border: 1px solid #b47353;
 }
